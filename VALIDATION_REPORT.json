@@ -1,0 +1,46 @@
+{
+  "version": "1.17.0",
+  "product_name": "SuperMenges",
+  "package_name": "openspectra_workbench",
+  "generated_at": "2026-04-28T21:19:05.993750+00:00",
+  "tests_passed": "182/182",
+  "syntax_errors": [],
+  "rebrand": {
+    "previous_name": "OpenSpectra Workbench",
+    "tribute_to": "Dr Friedrich Menges (1974-2024)",
+    "affiliation_disclosed": "Independent project \u2014 not affiliated with Spectragryph or Spectroscopy Ninja",
+    "help_about_dialog_added": true
+  },
+  "soft_palette": {
+    "light_menubar": "#dbece4",
+    "light_details": "#fbe6d4",
+    "light_peaks": "#e8def4",
+    "dark_menubar": "#26342f",
+    "dark_details": "#34291f",
+    "dark_peaks": "#2c2538"
+  },
+  "skins_now": [
+    "light",
+    "dark",
+    "high_contrast",
+    "oceanographic"
+  ],
+  "skins_removed": [
+    "sepia",
+    "solarized"
+  ],
+  "jws_diag_removed": {
+    "file_menu_entry": true,
+    "tools_menu_entry": true,
+    "toolbar_button": true,
+    "cli_subcommand_inspect-jws": true,
+    "JWS_FORMAT_NOTES_md": true,
+    "jws_reader_kept": true
+  },
+  "reset_zoom": {
+    "location": "top of plot right-click context menu",
+    "visual_emphasis": "bold + \u26f6 glyph + separator after",
+    "method_name": "reset_plot_zoom",
+    "underlying_call": "pyqtgraph ViewBox.autoRange()"
+  }
+}
